@@ -71,6 +71,7 @@ int bfs (int i, int j) {
                 } else if ( meikyu[p.first+x[s]][p.second+y[s]]  == 'G') {
                     if ( step == 0 || step > d+1) {
                         step = d+1;
+                        break;
                     }
                 }
             }
